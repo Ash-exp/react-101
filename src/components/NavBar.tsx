@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <>
       <header className="col-12 p-0">
-        <nav className="navbar navbar-expand-lg bg-light px-2">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-2">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               Users

@@ -3,7 +3,7 @@ const AddUser = () => {
   let { changeInput, saveUser, newUser } = useUserContext();
   return (
     <>
-      <section className="card col-6 col-lg-4 p-4 mt-3">
+      <section className="card col-8 col-lg-6 p-4 mt-3">
         <h1>Add New User </h1>
         <form onSubmit={saveUser}>
           <div className="mt-2">
